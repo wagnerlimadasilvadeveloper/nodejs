@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/wagnerlimadasilvadeveloper/nodejs/issues"
   },
-  "homepage": "https://github.com/wagnerlimadasilvadeveloper/nodejs#readme"
+  "homepage": "https://github.com/wagnerlimadasilvadeveloper/nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
 }
