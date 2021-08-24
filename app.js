@@ -1,9 +1,15 @@
-function somar ( n1,n2){
-    
-}
+const http = require ('http');
 
+const hostname = "127.0.0.1";
+const port = 3000;
 
-setInterval(function(){
-    somar(10,20);
-},2000)
+const server = http.createServer((req,res)=>{
 
+    res.statusCode= 200;
+    res.setHeader('Content-Type','text/plain');
+
+    res.end('Wagner Lima, tudo certo')
+})
+server.listen(port,hostname,()=>{
+    console.log("Servidor Rodando");
+})
